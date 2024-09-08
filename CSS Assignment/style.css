@@ -1,0 +1,11 @@
+th{
+    background-color: blue;
+    color: white;
+}
+body td:first-child{
+     text-transform: capitalize;
+     font-weight: bold;
+}
+.lunch{
+    font-size: large;
+}

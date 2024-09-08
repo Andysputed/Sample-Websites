@@ -1,0 +1,38 @@
+h1{
+	font-family:"Times New Roman" ,Times,sans-serif;
+	font-size:24px;
+}
+header{
+	text-align: center;
+	
+}
+table{
+	width:400px;
+	height:400px;
+	border:2px solid black;
+	
+}
+
+td{
+	padding:10px;
+	border-bottom:1px solid black;
+	font-weight: bolder;
+}
+.label{
+text-align:left;
+}
+
+.container{
+	margin:20px auto;
+	width:80%
+}
+
+body{
+background-image: url('kabarak_social_share_wide_logo_plain.jpg');
+background-repeat:no-repeat;
+background-position:top right;
+background-size:contain;
+}
+table td:first-child{
+	background-color:lightblue;
+}

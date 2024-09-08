@@ -1,0 +1,43 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlapping Images</title>
+    <style>
+	
+        .container {
+            position: relative;
+            width: 600px;
+            height: 600px; 
+            background-color: aqua;
+        }
+
+        img {
+            position: absolute;
+            top: 5;
+            left: 20;
+            width:500;
+            height: 500;
+        }
+
+        
+        .image1 {
+            z-index: 1;
+        }
+
+        .image2 {
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image1" src="sonic.jpeg" alt="Image 1">
+        <img class="image2" src="eiffel.jpeg" alt="Image 2">
+    </div>
+</body>
+</html>
